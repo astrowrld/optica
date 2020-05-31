@@ -6,6 +6,13 @@ $(document).ready(function () {
     infinite: true,
     autoplay: true,
     autoplaySpeed: 3500,
+    responsive:[
+      {
+        breakpoint:767,
+        settings:{
+          dots: false,
+        }
+    }]
   });
   $(".popular-products__slider").slick({
     slidesToShow: 4,

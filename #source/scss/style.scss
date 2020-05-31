@@ -462,20 +462,16 @@ span {
         bottom: 20px;
         left: 60px;
       }
-      @media (max-width:767px){
-        bottom: 5px;
-        left: 65px;
-      }
-      @media (max-width:470px){
-        display: none;
-      }
+    
     } 
   .slick-dots li{
       list-style: none;
       margin: 0px 7px;
+    
     }
   .slick-dots li.slick-active button{
       background-color: #FFFFFF;
+     
     }
   .slick-dots li button{
       font-size: 0;
@@ -484,6 +480,7 @@ span {
       background-color: transparent;
       border: 1px solid #ffffff;
       border-radius: 50%;
+    
     }  
 
   }
@@ -583,7 +580,7 @@ span {
 
   &__image {
     display: flex;
-    @media (max-width:750px){
+    @media (max-width:767px){
      display: none;
     }
     
