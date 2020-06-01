@@ -197,6 +197,9 @@ body {
       -webkit-box-pack: justify;
       -ms-flex-pack: justify;
       justify-content: space-between; } }
+  @media (max-width: 767px) {
+    .header__main {
+      height: 100px; } }
   @media (max-width: 426px) {
     .header__main {
       -ms-flex-wrap: wrap;
@@ -314,7 +317,7 @@ body {
 @media (max-width: 770px) {
   .buttns-block__signin:after {
     content: "";
-    margin: 0px 5px 0px 5px;
+    margin: 0px 10px 0px 10px;
     opacity: 0.2;
     border: 1px solid #828282;
     -webkit-transform: rotate(90deg);
@@ -511,7 +514,6 @@ body {
       margin-bottom: 16px; } }
   @media (max-width: 992px) {
     .slider-info__title {
-      font-size: 20px;
       margin-bottom: 10px;
       padding-left: 70px; } }
   @media (max-width: 767px) {
@@ -519,6 +521,9 @@ body {
       padding-top: 33px;
       padding-left: 30px;
       max-width: 300px; } }
+  @media (max-width: 380px) {
+    .slider-info__title {
+      font-size: 20px; } }
 
 .slider-info__text {
   display: -webkit-box;
@@ -639,7 +644,7 @@ body {
   letter-spacing: 0.05em;
   color: #FFFFFF;
   margin-bottom: 23px; }
-  @media (max-width: 380px) {
+  @media (max-width: 992px) {
     .glasses-selection__text {
       font-size: 14px;
       line-height: 19px; } }
